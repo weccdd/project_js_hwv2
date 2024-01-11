@@ -1,0 +1,60 @@
+body{
+    margin:0;
+}
+.main_block_info_users{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 138, 138), rgb(60, 179, 113));
+}
+#info_users{
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    background: linear-gradient(to right, rgb(255, 138, 138), rgb(60, 179, 113));;
+}
+.info_user{
+    width: 20vw;
+    height:18vh;
+    text-align:center;
+}
+.post_info_id{
+    font-family: 'Dela Gothic One', sans-serif;
+    margin: 15px 0;
+}
+.post_info_name{
+    font-family: 'Instrument Serif', serif;
+    font-size:20px;
+}
+.btn_details{
+    margin-right: 5px;
+    width: 90px;
+    height:25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 12px;
+}
+.btn_del{
+    margin-left:5px;
+    width: 90px;
+    height:25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 12px;
+}
+.btn_details:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
+}
+.btn_del:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
+}

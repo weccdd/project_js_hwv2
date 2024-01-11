@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+}
+.main_post_info{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, rgb(255, 138, 138), rgb(60, 179, 113));
+}
+#post_info{
+    width: 50vw;
+    height: 45vh;
+    text-align: center;
+    margin-top: 60px;
+    border: 1px solid black;
+}
+.par_user{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    margin: 15px 20px;
+}
+.button_back_title{
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.button_back_title:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    border-radius: 7px;
+}
+#post_comments{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+}
+.block_comment{
+    text-align: center;
+    border: 1px solid black;
+    width: 50vw;
+    margin: 5px 0;
+
+}
+.par_ID{
+    font-family: 'Dela Gothic One', sans-serif;
+}
+.par{
+    font-family: 'Bebas Neue', sans-serif;
+}
