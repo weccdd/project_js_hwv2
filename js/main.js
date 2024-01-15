@@ -23,9 +23,6 @@ fetch(url)
             let btnDel = document.createElement('button')
             btnDel.classList.add('btn_del')
 
-
-
-
             pID.innerText = `ID: ${postElement.id}`
             pName.innerText = `Name: ${postElement.name}`
             btn.innerText = 'DETAILS'

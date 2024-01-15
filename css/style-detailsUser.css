@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 .main_info_aut {
@@ -28,7 +29,7 @@ body {
 
 .button_next {
     margin: 20px 60px;
-    width: 170px;
+    width: 90%;
     height: 45px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -37,15 +38,19 @@ body {
 }
 
 .button_back {
-    margin: 20px 60px;
-    width: 170px;
+    margin: 0 60px;
+    width: 90%;
     height: 45px;
     border-radius: 5px;
     border: 1px solid gray;
     font-family: 'Dela Gothic One', sans-serif;
     font-size: 12px;
 }
-
+.button_block{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
 .button_next:hover {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
     border-radius: 7px;
@@ -58,29 +63,33 @@ body {
 
 .post_block {
     width: 95vw;
-    height: 80vh;
+    height: 40vh;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    align-items:center;
     background: linear-gradient(to right, rgb(255, 138, 138), rgb(60, 179, 113));
 }
-
+.post_div{
+    width: 10vw;
+}
 .post_title {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 26px;
-    margin: 25px 0 5px 0;
+    font-size: 18px;
+    margin: 25px 0 0 0;
 }
 
 .button_search_post {
-    width: 180px;
+    width: 140px;
     height: 35px;
     border-radius: 5px;
     border: 1px solid gray;
     font-family: 'Dela Gothic One', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
+    margin-top: 8px;
 }
 
 .button_search_post:hover {

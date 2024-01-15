@@ -37,20 +37,23 @@ body{
 #post_comments{
     width:100vw;
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items:center;
     margin-top: 30px;
 }
 .block_comment{
     text-align: center;
     border: 1px solid black;
-    width: 50vw;
-    margin: 5px 0;
+    width:  19vw;
+    height: 30vh;
+    margin: 5px 40px;
 
 }
 .par_ID{
     font-family: 'Dela Gothic One', sans-serif;
+    font-size: 17px
 }
 .par{
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 12px
 }

@@ -76,7 +76,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                 })
         });
 
-        buttonBlock.append(buttonBack, button);
+        buttonBlock.append(button, buttonBack);
         mainInfoAut.append(div, buttonBlock )
         document.body.appendChild(mainInfoAut);
 
